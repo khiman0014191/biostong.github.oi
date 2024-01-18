@@ -1,0 +1,37 @@
+*{
+    margin: o;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.Parent{
+    width: 80%;
+   margin: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15rem;
+    height: 34rem;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin: 2rem;
+    padding: 1rem;
+}
+#product {
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card image{
+    width: 100%;
+    max-width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.card h4 {
+    color: #971b3c;
+    margin-top: 4rem;
+
+}
